@@ -260,8 +260,6 @@
                     </div>
                 </div>
             </div>
-            <br>
-            <br>
             <h2>Khuyến mãi còn lại</h2>
         </div>
     </div>
@@ -354,189 +352,124 @@
     <div class="form-info">
         <div class="container">
             <div class="wrap">
-                <h2>Ưu đãi siêu hấp dẫn</h2>
+                <h2 style="font-size: 1.5em;">Ưu đãi siêu hấp dẫn</h2>
                 <hr style="height: 1px; background-color: black;">
                 <p>Mua điện thoại đôi giảm ngay 500.000đ</p>
                 <p>Tặng ngay tai nghe không dây trị giá 500.000đ</p>
 
             </div>
-            <div class="wrap">
-                <h2>Thông tin cá nhân</h2>
-                <hr style="height: 1px; background-color: black;">
-                <form action="/action_page.php" class="was-validated" id="section02">
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="uname" placeholder="Họ Và tên" name="uname" required>
+            <div class="wrap" id="section02">
+                <h2 style="font-size: 1.5em;">Thông tin cá nhân</h2>
+                <hr style=" height: 1px; background-color: black; ">
+                <form action="/action_page.php " class="was-validated ">
+                    <div class="form-group ">
+                        <input type="text " class="form-control " id="uname " placeholder="Họ Và tên " name="uname " required>
                     </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="uname" placeholder="Số điện thoại" name="uname" required>
+                    <div class="form-group ">
+                        <input type="text " class="form-control " id="uname " placeholder="Số điện thoại " name="uname " required>
                     </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="uname" placeholder="Địa chỉ" name="uname" required>
+                    <div class="form-group ">
+                        <select class="form-control ">
+                            <option value=" ">Tỉnh/Thành phố</option>
+                            <option value=" ">Tứ Kỳ</option>
+                        </select>
                     </div>
-                    <div class="form-group">
-                        <select class="form-control" id="sel1">
-                      <option>Tặng ốp lưng</option>
-                      <option>Tặng tai nghe</option>
-                      <option>Giam 500.000đ</option>
-                    </select>
+                    <div class="form-group ">
+                        <select class="form-control ">
+                            <option value=" ">Quận/huyện</option>
+                            <option value=" ">Tứ Kỳ</option>
+                        </select>
+                    </div>
+                    <div class="form-group ">
+                        <select class="form-control ">
+                            <option value=" ">Xã/Phường</option>
+                            <option value=" ">Quang khải</option>
+                        </select>
                     </div>
 
                     <div class="form-group ">
-                        <input data-is-select-country="true" tabindex="5" type="hidden" name="country" value="VN:Việt Nam">
-                        <select tabindex="5" name="state" required="" class="col-xl-4.col-lg-4 col-md-4 .col-sm-4 col-4" data-selected="" data-is-select-country="true" data-country="VN">
-                        <option value="">Tỉnh/thành</option>
-                        <option value="201:Hà Nội">Hà Nội</option>
-                        <option value="202:Hồ Chí Minh">Hồ Chí Minh</option>
-                        <option value="203:Đà Nẵng">Đà Nẵng</option>
-                        <option value="204:Đồng Nai">Đồng Nai</option>
-                        <option value="205:Bình Dương">Bình Dương</option>
-                        <option value="206:Bà Rịa - Vũng Tàu">Bà Rịa - Vũng Tàu</option>
-                        <option value="207:Gia Lai">Gia Lai</option>
-                        <option value="208:Khánh Hòa">Khánh Hòa</option>
-                        <option value="209:Lâm Đồng">Lâm Đồng</option>
-                        <option value="210:Đắk Lắk">Đắk Lắk</option>
-                        <option value="211:Long An">Long An</option>
-                        <option value="212:Tiền Giang">Tiền Giang</option>
-                        <option value="213:Bến Tre">Bến Tre</option>
-                        <option value="214:Trà Vinh">Trà Vinh</option>
-                        <option value="215:Vĩnh Long">Vĩnh Long</option>
-                        <option value="216:Đồng Tháp">Đồng Tháp</option>
-                        <option value="217:An Giang">An Giang</option>
-                        <option value="218:Sóc Trăng">Sóc Trăng</option>
-                        <option value="219:Kiên Giang">Kiên Giang</option>
-                        <option value="220:Cần Thơ">Cần Thơ</option>
-                        <option value="221:Vĩnh Phúc">Vĩnh Phúc</option>
-                        <option value="223:Thừa Thiên - Huế">Thừa Thiên - Huế</option>
-                        <option value="224:Hải Phòng">Hải Phòng</option>
-                        <option value="225:Hải Dương">Hải Dương</option>
-                        <option value="226:Thái Bình">Thái Bình</option>
-                        <option value="227:Hà Giang">Hà Giang</option>
-                        <option value="228:Tuyên Quang">Tuyên Quang</option>
-                        <option value="229:Phú Thọ">Phú Thọ</option>
-                        <option value="230:Quảng Ninh">Quảng Ninh</option>
-                        <option value="231:Nam Định">Nam Định</option>
-                        <option value="232:Hà Nam">Hà Nam</option>
-                        <option value="233:Ninh Bình">Ninh Bình</option>
-                        <option value="234:Thanh Hóa">Thanh Hóa</option>
-                        <option value="235:Nghệ An">Nghệ An</option>
-                        <option value="236:Hà Tĩnh">Hà Tĩnh</option>
-                        <option value="237:Quảng Bình">Quảng Bình</option>
-                        <option value="238:Quảng Trị">Quảng Trị</option>
-                        <option value="239:Bình Phước">Bình Phước</option>
-                        <option value="240:Tây Ninh">Tây Ninh</option>
-                        <option value="241:Đắk Nông">Đắk Nông</option>
-                        <option value="242:Quảng Ngãi">Quảng Ngãi</option>
-                        <option value="243:Quảng Nam">Quảng Nam</option>
-                        <option value="244:Thái Nguyên">Thái Nguyên</option>
-                        <option value="245:Bắc Kạn">Bắc Kạn</option>
-                        <option value="246:Cao Bằng">Cao Bằng</option>
-                        <option value="247:Lạng Sơn">Lạng Sơn</option>
-                        <option value="248:Bắc Giang">Bắc Giang</option>
-                        <option value="249:Bắc Ninh">Bắc Ninh</option>
-                        <option value="250:Hậu Giang">Hậu Giang</option>
-                        <option value="252:Cà Mau">Cà Mau</option>
-                        <option value="253:Bạc Liêu">Bạc Liêu</option>
-                        <option value="257:Đồng Tháp">Đồng Tháp</option>
-                        <option value="258:Bình Thuận">Bình Thuận</option>
-                        <option value="259:Kon Tum">Kon Tum</option>
-                        <option value="260:Phú Yên">Phú Yên</option>
-                        <option value="261:Ninh Thuận">Ninh Thuận</option>
-                        <option value="262:Bình Định">Bình Định</option>
-                        <option value="263:Yên Bái">Yên Bái</option>
-                        <option value="264:Lai Châu">Lai Châu</option>
-                        <option value="265:Điện Biên">Điện Biên</option>
-                        <option value="266:Sơn La">Sơn La</option>
-                        <option value="267:Hòa Bình">Hòa Bình</option>
-                        <option value="268:Hưng Yên">Hưng Yên</option>
-                        <option value="269:Lào Cai">Lào Cai</option>
-                    </select>
-                        <select tabindex="5" name="district" required="" class="" data-selected="" data-is-select-country="true">
-                        <option value="">Quận/huyện</option>
-                    </select>
-                        <select tabindex="5" name="ward" required="" class="" data-selected="" data-is-select-country="true">
-                        <option value="">Phường/xã</option>
-                    </select>
+                        <input type="text " class="form-control " id="uname " placeholder="Địa chỉ " name="uname " required>
                     </div>
-                    <a href="#section02">
-                        <button class="custom-btn btn-11">Mua ngay<div class="dot"></div></button>
+                    <a href="#section02 ">
+                        <button class="custom-btn btn-11 ">Mua ngay<div class="dot "></div></button>
                     </a>
                 </form>
             </div>
         </div>
     </div>
-    <h2>Thời gian khuyến mãi còn</h2>
-    <script src="./assets/js/script.js"></script>
+    <h2 style="font-size: 1.5em;">Thời gian khuyến mãi còn</h2>
+    <script src="./assets/js/script.js "></script>
 
     <!-- Please Subscribe My Youtube Channel
 https://www.youtube.com/channel/UCQM5ye1xR4vJgtga0ryud2Q/
 -->
-    <footer id="footer" class="footer-1">
-        <div class="main-footer widgets-dark typo-light">
-            <div class="container">
-                <div class="row">
+    <footer id="footer " class="footer-1 ">
+        <div class="main-footer widgets-dark typo-light ">
+            <div class="container ">
+                <div class="row ">
 
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="widget subscribe no-box">
-                            <h5 class="widget-title">COMPANY NAME<span></span></h5>
+                    <div class="col-xs-12 col-sm-6 col-md-3 ">
+                        <div class="widget subscribe no-box ">
+                            <h5 class="widget-title ">COMPANY NAME<span></span></h5>
                             <p>About the company, little discription will goes here.. </p>
                         </div>
                     </div>
 
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="widget no-box">
-                            <h5 class="widget-title">Quick Links<span></span></h5>
-                            <ul class="thumbnail-widget">
+                    <div class="col-xs-12 col-sm-6 col-md-3 ">
+                        <div class="widget no-box ">
+                            <h5 class="widget-title ">Quick Links<span></span></h5>
+                            <ul class="thumbnail-widget ">
                                 <li>
-                                    <div class="thumb-content"><a href="#.">Get Started</a></div>
+                                    <div class="thumb-content "><a href="#. ">Get Started</a></div>
                                 </li>
                                 <li>
-                                    <div class="thumb-content"><a href="#.">Top Leaders</a></div>
+                                    <div class="thumb-content "><a href="#. ">Top Leaders</a></div>
                                 </li>
                                 <li>
-                                    <div class="thumb-content"><a href="#.">Success Stories</a></div>
+                                    <div class="thumb-content "><a href="#. ">Success Stories</a></div>
                                 </li>
                                 <li>
-                                    <div class="thumb-content"><a href="#.">Event/Tickets</a></div>
+                                    <div class="thumb-content "><a href="#. ">Event/Tickets</a></div>
                                 </li>
                                 <li>
-                                    <div class="thumb-content"><a href="#.">News</a></div>
+                                    <div class="thumb-content "><a href="#. ">News</a></div>
                                 </li>
                                 <li>
-                                    <div class="thumb-content"><a href="#.">Lifestyle</a></div>
+                                    <div class="thumb-content "><a href="#. ">Lifestyle</a></div>
                                 </li>
                                 <li>
-                                    <div class="thumb-content"><a href="#.">About</a></div>
+                                    <div class="thumb-content "><a href="#. ">About</a></div>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="widget no-box">
-                            <h5 class="widget-title">Get Started<span></span></h5>
+                    <div class="col-xs-12 col-sm-6 col-md-3 ">
+                        <div class="widget no-box ">
+                            <h5 class="widget-title ">Get Started<span></span></h5>
                             <p>Get access to your full Training and Marketing Suite.</p>
-                            <a class="btn" href="#." target="_blank">Register Now</a>
+                            <a class="btn " href="#. " target="_blank ">Register Now</a>
                         </div>
                     </div>
 
-                    <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="col-xs-12 col-sm-6 col-md-3 ">
 
-                        <div class="widget no-box">
-                            <h5 class="widget-title">Contact Us<span></span></h5>
+                        <div class="widget no-box ">
+                            <h5 class="widget-title ">Contact Us<span></span></h5>
 
-                            <p><a href="mailto:info@domain.com" title="glorythemes">info@domain.com</a></p>
-                            <ul class="social-footer2">
-                                <li class="">
-                                    <a title="youtube" target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                            <p><a href="mailto:info@domain.com " title="glorythemes ">info@domain.com</a></p>
+                            <ul class="social-footer2 ">
+                                <li class=" ">
+                                    <a title="youtube " target="_blank " href="https://www.youtube.com/ "><i class="fab fa-youtube "></i></a>
                                 </li>
-                                <li class="">
-                                    <a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+                                <li class=" ">
+                                    <a href="https://www.facebook.com/ " target="_blank " title="Facebook "><i class="fab fa-facebook-square "></i></a>
                                 </li>
-                                <li class="">
-                                    <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                                <li class=" ">
+                                    <a href="https://twitter.com " target="_blank " title="Twitter "><i class="fab fa-twitter "></i></a>
                                 </li>
-                                <li class="">
-                                    <a title="instagram" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+                                <li class=" ">
+                                    <a title="instagram " target="_blank " href="https://www.instagram.com/ "><i class="fab fa-instagram-square "></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -546,10 +479,10 @@ https://www.youtube.com/channel/UCQM5ye1xR4vJgtga0ryud2Q/
             </div>
         </div>
 
-        <div class="footer-copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
+        <div class="footer-copyright ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-12 text-center ">
                         <p>Copyright Company Name © 2016. All rights reserved.</p>
                     </div>
                 </div>
